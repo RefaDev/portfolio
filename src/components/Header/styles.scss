@@ -1,0 +1,114 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #0000003a;
+  z-index: 1111;
+
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+  img {
+    animation-name: projects-slide-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+    @keyframes projects-slide-in {
+      from {
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+}
+.header_logo {
+  position: relative;
+
+  &:hover {
+    &::after {
+      content: url(../../assets/images/light.png);
+      z-index: 11;
+      position: absolute;
+      left: -6px;
+      top: 0px;
+    }
+  }
+}
+.nav {
+  ul {
+    display: flex;
+    li {
+      margin: 0px 0px 0px 20px;
+      transition: all 0.3s ease;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    display: none;
+  }
+}
+
+.nav-burger {
+  animation-name: projects-slide-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  background: #000000f4;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+	bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 111111111;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    li {
+      font-size: 40px;
+    }
+  }
+  @keyframes projects-slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+.close {
+  animation-name: projects-slide-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  @keyframes projects-slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+.active {
+  text-decoration: underline;
+  color: tomato;
+}

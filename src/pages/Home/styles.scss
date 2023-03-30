@@ -1,0 +1,85 @@
+.home_content {
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  h1 {
+    font-size: 3rem;
+    margin: 0px 0px 30px 0px;
+    line-height: 60px;
+
+    span {
+      color: tomato;
+    }
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 30px;
+
+    a {
+      color: tomato;
+      text-decoration: underline;
+
+      @keyframes cursor {
+        0% {
+          border-color: white;
+        }
+
+        50% {
+          border-color: transparent;
+        }
+
+        100% {
+          border-color: white;
+        }
+      }
+
+      @keyframes printed_text {
+        from {
+          width: 0;
+        }
+      }
+    }
+  }
+}
+.photo {
+  margin: 20px 0px 70px 0px;
+  img {
+    border-radius: 40px;
+    max-width: 100%;
+    max-height: 400px;
+    transition: all 0.3s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+.text {
+  display: inline-block;
+  width: 19ch;
+  white-space: nowrap; /* не переносить текст на другую строку */
+  overflow: hidden; /* скрываем переполнение контентом */
+  border-right: 2px solid white; /* рисуем курсор */
+  animation: cursor 0.75s step-end infinite, printed_text 3s steps(35);
+  span {
+    color: tomato;
+  }
+}
+
+@keyframes cursor {
+  0% {
+    border-color: white;
+  }
+
+  50% {
+    border-color: transparent;
+  }
+
+  100% {
+    border-color: white;
+  }
+}
+
+@keyframes printed_text {
+  from {
+    width: 0;
+  }
+}
