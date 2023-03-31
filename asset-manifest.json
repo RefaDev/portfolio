@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4141a2a7.css",
-    "main.js": "/static/js/main.389b9099.js",
+    "main.js": "/static/js/main.ff22eb04.js",
     "static/media/president.jpg": "/static/media/president.daaa5d061338360b2df8.jpg",
     "static/media/ava.jpg": "/static/media/ava.d1e37fb0557bd3b24277.jpg",
     "static/media/ava2.jpg": "/static/media/ava2.b63059fb273cc0723d58.jpg",
@@ -20,16 +20,16 @@
     "static/media/figma.svg": "/static/media/figma.eea90cbdb2df47f3f9a77474d7dd244c.svg",
     "static/media/mui.svg": "/static/media/mui.734426c25d85d6f02b49b98d28ef9f03.svg",
     "static/media/gitlab.svg": "/static/media/gitlab.acd86715e134757d8c8815f6de94543e.svg",
-    "index.html": "/index.html",
     "static/media/contact.svg": "/static/media/contact.f01343864a7c494b5d79b64a78709c72.svg",
     "static/media/gmail.svg": "/static/media/gmail.c19b1fbd7233feb023136f07d839c0a7.svg",
     "static/media/telegram.svg": "/static/media/telegram.ea36aa4c81b0f730bcc914adbb68f822.svg",
+    "index.html": "/index.html",
     "static/media/cssModule.svg": "/static/media/cssModule.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "main.4141a2a7.css.map": "/static/css/main.4141a2a7.css.map",
-    "main.389b9099.js.map": "/static/js/main.389b9099.js.map"
+    "main.ff22eb04.js.map": "/static/js/main.ff22eb04.js.map"
   },
   "entrypoints": [
     "static/css/main.4141a2a7.css",
-    "static/js/main.389b9099.js"
+    "static/js/main.ff22eb04.js"
   ]
 }
