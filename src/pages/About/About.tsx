@@ -57,7 +57,7 @@ const About = () => {
           <p>I'm also passionate about growing plants and hiking.</p>
           <p>
             Thank you for visiting my portfolio, and I hope you enjoy exploring{' '}
-            <NavLink to='https://RefaDev.github.io/portfolio/portfolio'>my work!</NavLink>
+            <NavLink to='/portfolio/portfolio'>my work!</NavLink>
           </p>
         </div>
       </div>
