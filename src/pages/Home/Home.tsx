@@ -14,7 +14,7 @@ const Home = () => {
 
           <h2 className='text' translate='no'>
             Let me tell{' '}
-            <NavLink to='/about'>
+            <NavLink to='https://RefaDev.github.io/portfolio/about'>
               <span>about myself.</span>
             </NavLink>
           </h2>

@@ -17,7 +17,7 @@ const Header = () => {
       <div className='container'>
         <div className='header-content'>
          <div className="header_logo">
-				 <NavLink to='/'>
+				 <NavLink to='https://RefaDev.github.io/portfolio/'>
             <img src={logo} alt='logo' />
           </NavLink>
 				 </div>
@@ -25,7 +25,7 @@ const Header = () => {
             <ul>
               <li>
                 <NavLink
-                  to='/'
+                  to='https://RefaDev.github.io/portfolio/'
                   className={({ isActive }) => (isActive ? 'active' : '')}
                 >
                   HOME
@@ -33,7 +33,7 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to='/about'
+                  to='https://RefaDev.github.io/portfolio/about'
                   className={({ isActive }) => (isActive ? 'active' : '')}
                 >
                   ABOUT ME
@@ -41,7 +41,7 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to='/portfolio'
+                  to='https://RefaDev.github.io/portfolio/portfolio'
                   className={({ isActive }) => (isActive ? 'active' : '')}
                 >
                   PORTFOLIO
@@ -49,7 +49,7 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to='/contacts'
+                  to='https://RefaDev.github.io/portfolio/contacts'
                   className={({ isActive }) => (isActive ? 'active' : '')}
                 >
                   CONTACTS
@@ -62,7 +62,7 @@ const Header = () => {
               <ul>
                 <li>
                   <NavLink
-                    to='/'
+                    to='https://RefaDev.github.io/portfolio/'
                     className={({ isActive }) => (isActive ? 'active' : '')}
                     onClick={closeBurger}
                   >
@@ -71,7 +71,7 @@ const Header = () => {
                 </li>
                 <li>
                   <NavLink
-                    to='/about'
+                    to='https://RefaDev.github.io/portfolio/about'
                     className={({ isActive }) => (isActive ? 'active' : '')}
                     onClick={closeBurger}
                   > 
@@ -80,7 +80,7 @@ const Header = () => {
                 </li>
                 <li>
                   <NavLink
-                    to='/portfolio'
+                    to='https://RefaDev.github.io/portfolio/portfolio'
                     className={({ isActive }) => (isActive ? 'active' : '')}
                     onClick={closeBurger}
                   >
@@ -89,7 +89,7 @@ const Header = () => {
                 </li>
                 <li>
                   <NavLink
-                    to='/contacts'
+                    to='https://RefaDev.github.io/portfolio/contacts'
                     className={({ isActive }) => (isActive ? 'active' : '')}
                     onClick={closeBurger}
                   >
