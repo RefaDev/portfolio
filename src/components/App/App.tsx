@@ -37,10 +37,10 @@ const App = () => {
         {transitions.map(({ item, props: transition, key }) => (
           <animated.div key={key} style={transition}>
             <Routes location={item}>
-              <Route index path='/' element={<Home />} />
-              <Route path='/about' element={<About />} />
-              <Route path='/portfolio' element={<Portfolio />} />
-              <Route path='/contacts' element={<Contacts />} />
+              <Route index path='/portfolio' element={<Home />} />
+              <Route path='/portfolio/about' element={<About />} />
+              <Route path='/portfolio/portfolio' element={<Portfolio />} />
+              <Route path='/portfolio/contacts' element={<Contacts />} />
               <Route path='*' element={<Home />} />
             </Routes>
           </animated.div>
