@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4141a2a7.css",
-    "main.js": "/portfolio/static/js/main.f6433208.js",
+    "main.js": "/portfolio/static/js/main.8f3575a9.js",
     "static/media/president.jpg": "/portfolio/static/media/president.daaa5d061338360b2df8.jpg",
     "static/media/ava.jpg": "/portfolio/static/media/ava.d1e37fb0557bd3b24277.jpg",
     "static/media/ava2.jpg": "/portfolio/static/media/ava2.b63059fb273cc0723d58.jpg",
@@ -20,16 +20,16 @@
     "static/media/figma.svg": "/portfolio/static/media/figma.eea90cbdb2df47f3f9a77474d7dd244c.svg",
     "static/media/mui.svg": "/portfolio/static/media/mui.734426c25d85d6f02b49b98d28ef9f03.svg",
     "static/media/gitlab.svg": "/portfolio/static/media/gitlab.acd86715e134757d8c8815f6de94543e.svg",
+    "index.html": "/portfolio/index.html",
     "static/media/contact.svg": "/portfolio/static/media/contact.f01343864a7c494b5d79b64a78709c72.svg",
     "static/media/gmail.svg": "/portfolio/static/media/gmail.c19b1fbd7233feb023136f07d839c0a7.svg",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.ea36aa4c81b0f730bcc914adbb68f822.svg",
-    "index.html": "/portfolio/index.html",
     "static/media/cssModule.svg": "/portfolio/static/media/cssModule.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "main.4141a2a7.css.map": "/portfolio/static/css/main.4141a2a7.css.map",
-    "main.f6433208.js.map": "/portfolio/static/js/main.f6433208.js.map"
+    "main.8f3575a9.js.map": "/portfolio/static/js/main.8f3575a9.js.map"
   },
   "entrypoints": [
     "static/css/main.4141a2a7.css",
-    "static/js/main.f6433208.js"
+    "static/js/main.8f3575a9.js"
   ]
 }
