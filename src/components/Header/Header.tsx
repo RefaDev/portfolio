@@ -4,6 +4,7 @@ import Burger from 'components/Burger/Burger'
 import { NavLink } from 'react-router-dom'
 
 import './styles.scss'
+import { addActiveToNavLinks } from 'utils/addActiveToNavLinks'
 
 const Header = () => {
   const [burgerOpen, SetBurgerOpen] = useState(false)
@@ -24,34 +25,22 @@ const Header = () => {
           <nav className='nav'>
             <ul>
               <li>
-                <NavLink
-                  to='/'
-                  className={({ isActive }) => (isActive ? 'active' : '')}
-                >
+                <NavLink to='/' className={addActiveToNavLinks}>
                   HOME
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  to='/about'
-                  className={({ isActive }) => (isActive ? 'active' : '')}
-                >
+                <NavLink to='/about' className={addActiveToNavLinks}>
                   ABOUT ME
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  to='/myworks'
-                  className={({ isActive }) => (isActive ? 'active' : '')}
-                >
+                <NavLink to='/myworks' className={addActiveToNavLinks}>
                   PORTFOLIO
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  to='/contacts'
-                  className={({ isActive }) => (isActive ? 'active' : '')}
-                >
+                <NavLink to='/contacts' className={addActiveToNavLinks}>
                   CONTACTS
                 </NavLink>
               </li>
@@ -63,7 +52,7 @@ const Header = () => {
                 <li>
                   <NavLink
                     to='/'
-                    className={({ isActive }) => (isActive ? 'active' : '')}
+                    className={addActiveToNavLinks}
                     onClick={closeBurger}
                   >
                     HOME
@@ -72,7 +61,7 @@ const Header = () => {
                 <li>
                   <NavLink
                     to='/about'
-                    className={({ isActive }) => (isActive ? 'active' : '')}
+                    className={addActiveToNavLinks}
                     onClick={closeBurger}
                   >
                     ABOUT ME
@@ -81,7 +70,7 @@ const Header = () => {
                 <li>
                   <NavLink
                     to='/myworks'
-                    className={({ isActive }) => (isActive ? 'active' : '')}
+                    className={addActiveToNavLinks}
                     onClick={closeBurger}
                   >
                     PORTFOLIO
@@ -90,7 +79,7 @@ const Header = () => {
                 <li>
                   <NavLink
                     to='/contacts'
-                    className={({ isActive }) => (isActive ? 'active' : '')}
+                    className={addActiveToNavLinks}
                     onClick={closeBurger}
                   >
                     CONTACTS
