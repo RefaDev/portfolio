@@ -17,7 +17,7 @@ const Header = () => {
       <div className='container'>
         <div className='header-content'>
           <div className='header_logo'>
-            <NavLink to='/portfolio'>
+            <NavLink to='/'>
               <img src={logo} alt='logo' />
             </NavLink>
           </div>
@@ -25,7 +25,7 @@ const Header = () => {
             <ul>
               <li>
                 <NavLink
-                  to='/portfolio'
+                  to='/'
                   className={({ isActive }) => (isActive ? 'active' : '')}
                 >
                   HOME
@@ -62,7 +62,7 @@ const Header = () => {
               <ul>
                 <li>
                   <NavLink
-                    to='/portfolio'
+                    to='/'
                     className={({ isActive }) => (isActive ? 'active' : '')}
                     onClick={closeBurger}
                   >
