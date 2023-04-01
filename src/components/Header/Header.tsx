@@ -41,7 +41,7 @@ const Header = () => {
               </li>
               <li>
                 <NavLink
-                  to='/portfolio'
+                  to='/myworks'
                   className={({ isActive }) => (isActive ? 'active' : '')}
                 >
                   PORTFOLIO
@@ -80,7 +80,7 @@ const Header = () => {
                 </li>
                 <li>
                   <NavLink
-                    to='/portfolio'
+                    to='/myworks'
                     className={({ isActive }) => (isActive ? 'active' : '')}
                     onClick={closeBurger}
                   >
