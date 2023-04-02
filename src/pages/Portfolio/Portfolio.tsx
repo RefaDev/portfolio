@@ -2,6 +2,7 @@ import React from 'react'
 import president from 'assets/images/portfolio/president.jpg'
 import news from 'assets/images/portfolio/news-portal.jpg'
 import films from 'assets/images/portfolio/films-portal.jpg'
+import pizza from 'assets/images/portfolio/pizza.jpg'
 import './styles.scss'
 
 const Portfolio = () => {
@@ -26,6 +27,20 @@ const Portfolio = () => {
                 React, Redux, Redux Thunk, JS, TypeScript, HTML, SCSS, JS, Axios, React-router-dom
               </p>
               <a target='_blank' href='https://refadev.github.io/news-portal'>
+                View Project
+              </a>
+            </div>
+          </div>
+					<div className='portfolio-content__item'>
+            <div className='portfolio-img'>
+              <img src={pizza} alt='president car' />
+            </div>
+            <div className='portfolio-content__item-descr'>
+              <h3>News Portal</h3>
+              <p>
+                React, Redux, React-paginate, JS, TypeScript, lodash.debaunce, HTML, SCSS, Skeleton, JS, Axios, React-router-dom
+              </p>
+              <a target='_blank' href='https://refadev.github.io/pizza'>
                 View Project
               </a>
             </div>
