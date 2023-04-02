@@ -1,5 +1,7 @@
 import React from 'react'
 import president from 'assets/images/portfolio/president.jpg'
+import news from 'assets/images/portfolio/news-portal.jpg'
+import films from 'assets/images/portfolio/films-portal.jpg'
 import './styles.scss'
 
 const Portfolio = () => {
@@ -16,30 +18,28 @@ const Portfolio = () => {
           </p>
           <div className='portfolio-content__item'>
             <div className='portfolio-img'>
-              <img src={president} alt='president car' />
+              <img src={news} alt='president car' />
             </div>
             <div className='portfolio-content__item-descr'>
-              <h3>President Car</h3>
+              <h3>News Portal</h3>
               <p>
-                React, HTML, SCSS, JS, Axios, Formik, Yup, Telegram API, Frame
-                Motion, React-router-dom, Swiper
+                React, Redux, Redux Thunk, JS, TypeScript, HTML, SCSS, JS, Axios, React-router-dom
               </p>
-              <a target='_blank' href='https://refadev.github.io/presidentcar'>
+              <a target='_blank' href='https://refadev.github.io/news-portal'>
                 View Project
               </a>
             </div>
           </div>
           <div className='portfolio-content__item'>
             <div className='portfolio-img'>
-              <img src={president} alt='president car' />
+              <img src={films} alt='president car' />
             </div>
             <div className='portfolio-content__item-descr'>
-              <h3>President Car</h3>
+              <h3>Films Portal</h3>
               <p>
-                React, HTML, SCSS, JS, Axios, Formik, Yup, Telegram API, Frame
-                Motion, React-router-dom, Swiper
+							React, Redux, Redux Thunk, JS, TypeScript, HTML, CSS, JS, Axios, React-router-dom
               </p>
-              <a target='_blank' href='https://refadev.github.io/presidentcar'>
+              <a target='_blank' href='https://refadev.github.io/films-portal/#/'>
                 View Project
               </a>
             </div>

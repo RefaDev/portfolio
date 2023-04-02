@@ -31,9 +31,12 @@
 }
 .portfolio-img{
 	max-width: 700px;
+	height: 386.64px;
 	img {
 		border: 2px solid tomato;
 		max-width: 100%;
+		min-height: 100%;
+		object-fit: cover;
 		transition: all .3s ease;
 		&:hover{
 			transform: scale(1.01);
