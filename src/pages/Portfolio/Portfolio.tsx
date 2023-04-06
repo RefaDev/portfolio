@@ -27,7 +27,7 @@ const Portfolio = () => {
               <p>
                 HTML, SCSS, JS, BEM, Gulp, Webpack
               </p>
-              <a target='_blank' href='https://refadev.github.io/pusle'>
+              <a target='_blank' href='https://refadev.github.io/pulse/'>
                 View Project
               </a>
             </div>
