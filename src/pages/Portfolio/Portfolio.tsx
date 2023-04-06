@@ -3,7 +3,7 @@ import president from 'assets/images/portfolio/president.jpg'
 import news from 'assets/images/portfolio/news-portal.jpg'
 import films from 'assets/images/portfolio/films-portal.jpg'
 import pizza from 'assets/images/portfolio/pizza.jpg'
-import pulse from 'assets/images/portfolio/pusle.jpg
+import pulse from 'assets/images/portfolio/pusle.jpg'
 import './styles.scss'
 
 const Portfolio = () => {
