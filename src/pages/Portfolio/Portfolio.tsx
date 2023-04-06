@@ -3,6 +3,7 @@ import president from 'assets/images/portfolio/president.jpg'
 import news from 'assets/images/portfolio/news-portal.jpg'
 import films from 'assets/images/portfolio/films-portal.jpg'
 import pizza from 'assets/images/portfolio/pizza.jpg'
+import pulse from 'assets/images/portfolio/pusle.jpg
 import './styles.scss'
 
 const Portfolio = () => {
@@ -17,6 +18,20 @@ const Portfolio = () => {
           <p>
             Some of my <span>works</span>
           </p>
+					<div className='portfolio-content__item'>
+            <div className='portfolio-img'>
+              <img src={pulse} alt='pulse' />
+            </div>
+            <div className='portfolio-content__item-descr'>
+              <h3>Pulse</h3>
+              <p>
+                HTML, SCSS, JS, BEM, Gulp, Webpack
+              </p>
+              <a target='_blank' href='https://refadev.github.io/pusle'>
+                View Project
+              </a>
+            </div>
+          </div>
           <div className='portfolio-content__item'>
             <div className='portfolio-img'>
               <img src={news} alt='president car' />
