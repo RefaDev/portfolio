@@ -27,7 +27,7 @@ const Portfolio = () => {
               <p>
                 HTML, SCSS, JS, BEM, Gulp, Webpack
               </p>
-              <a target='_blank' href='https://refadev.github.io/pulse/'>
+              <a target='_blank' href='https://refadev.github.io/pulse'>
                 View Project
               </a>
             </div>
@@ -39,7 +39,7 @@ const Portfolio = () => {
             <div className='portfolio-content__item-descr'>
               <h3>News Portal</h3>
               <p>
-                React, Redux, Redux Thunk, JS, TypeScript, HTML, SCSS, JS, Axios, React-router-dom
+                React, Redux, Redux Thunk, JS, TypeScript, HTML, SCSS, Axios, React-router-dom
               </p>
               <a target='_blank' href='https://refadev.github.io/news-portal'>
                 View Project
@@ -51,9 +51,9 @@ const Portfolio = () => {
               <img src={pizza} alt='president car' />
             </div>
             <div className='portfolio-content__item-descr'>
-              <h3>News Portal</h3>
+              <h3>Pizza</h3>
               <p>
-                React, Redux, React-paginate, JS, TypeScript, lodash.debaunce, HTML, SCSS, Skeleton, JS, Axios, React-router-dom
+                React, Redux, React-paginate, JS, TypeScript, lodash.debaunce, HTML, SCSS, Skeleton, Axios, React-router-dom
               </p>
               <a target='_blank' href='https://refadev.github.io/pizza'>
                 View Project
@@ -67,9 +67,9 @@ const Portfolio = () => {
             <div className='portfolio-content__item-descr'>
               <h3>Films Portal</h3>
               <p>
-							React, Redux, Redux Thunk, JS, TypeScript, HTML, CSS, JS, Axios, React-router-dom
+							React, Redux, Redux Thunk, JS, TypeScript, HTML, CSS, Axios, React-router-dom
               </p>
-              <a target='_blank' href='https://refadev.github.io/films-portal/#/'>
+              <a target='_blank' href='https://refadev.github.io/films-portal'>
                 View Project
               </a>
             </div>

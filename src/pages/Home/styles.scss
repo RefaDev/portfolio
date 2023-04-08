@@ -1,6 +1,6 @@
 .home_content {
   text-align: center;
-  padding: 0px 0px 0px 0px;
+  padding: 30px 0px 0px 0px;
   h1 {
     font-size: 3rem;
     margin: 0px 0px 30px 0px;
@@ -14,7 +14,6 @@
 		}
     span {
       color: tomato;
-			width: 100%;
     }
   }
   h2 {
@@ -49,7 +48,7 @@
   }
 }
 .photo {
-  margin: 20px 0px 80px 0px;
+  margin: 20px 0px 30px 0px;
 	
   img {
     border-radius: 40px;
@@ -65,13 +64,18 @@
     }
   }
 }
+
 .text {
-  display: inline-block;
-  width: 19ch;
+	display: block;
+	margin: 0 auto;
+  width: 25ch;
+  color: white;
+  font-family: monospace;
+  font-size: 30px;
   white-space: nowrap; /* не переносить текст на другую строку */
   overflow: hidden; /* скрываем переполнение контентом */
-  border-right: 2px solid white; /* рисуем курсор */
-  animation: cursor 0.75s step-end infinite, printed_text 3s steps(35);
+  border-right: 3px solid white; /* рисуем курсор */
+  animation: cursor 0.75s step-end infinite, printed_text 3s steps(25);
   span {
     color: tomato;
   }
@@ -95,4 +99,5 @@
   from {
     width: 0;
   }
+	
 }

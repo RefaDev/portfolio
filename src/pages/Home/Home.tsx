@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom'
 import ava from 'assets/images/ava.jpg'
 import './styles.scss'
 const Home = () => {
+
+	
   return (
     <section className='home'>
       <div className='container'>
@@ -18,9 +20,10 @@ const Home = () => {
               <span>about myself.</span>
             </NavLink>
           </h2>
-					<div className="photo">
-						<img src={ava} alt=""/>
-					</div>
+
+          <div className='photo'>
+            <img src={ava} alt='' />
+          </div>
         </div>
       </div>
     </section>

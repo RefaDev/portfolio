@@ -1,9 +1,13 @@
 .footer {
+	height: 76.36px;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   background: #0000003a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .footer_contacts {
   padding: 10px 0px 10px 0px;
