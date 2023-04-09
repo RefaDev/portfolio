@@ -35,7 +35,7 @@ const App = () => {
 
       <div className='main'>
         {transitions.map(({ item, props: transition, key }) => (
-          <animated.div key={key} style={transition}>
+          <animated.div className='main__wrapper' key={key} style={transition}>
             <Routes location={item}>
               <Route path='/' element={<Home />} />
               <Route path='/about' element={<About />} />
