@@ -1,18 +1,19 @@
 .header {
-  position: fixed;
+  padding: 10px 5px 10px 5px;
+	
   top: 0;
   left: 0;
   right: 0;
   background: #0000003a;
   z-index: 1111;
+  position: fixed;
 
 }
 .header-content {
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0px 10px 0px;
- 
 }
 .header_logo {
   position: relative;
@@ -34,7 +35,7 @@
       margin: 0px 0px 0px 20px;
       transition: all 0.3s ease;
       &:hover {
-				color: tomato;
+        color: tomato;
         transform: scale(1.1);
       }
     }
@@ -50,7 +51,7 @@
   left: 0;
   right: 0;
   top: 0;
-	bottom: 0;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +66,6 @@
       font-size: 40px;
     }
   }
- 
 }
 
 .active {

@@ -1,9 +1,11 @@
 import Footer from 'components/Footer/Footer'
 import Header from 'components/Header/Header'
+import ScrollTopBtn from 'components/ScrollTopBtn/ScrollTopBtn'
 import About from 'pages/About/About'
 import Contacts from 'pages/Contacts/Contacts'
 import Home from 'pages/Home/Home'
 import Portfolio from 'pages/Portfolio/Portfolio'
+import { useState, useEffect } from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
 import { animated, useTransition } from 'react-spring'
 
@@ -28,6 +30,19 @@ const App = () => {
     },
   })
 
+	const [showTopBtn, setShowTopBtn] = useState(false)
+	console.log(showTopBtn);
+	
+  useEffect	(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 200) {
+        setShowTopBtn(true)
+      } else {
+        setShowTopBtn(false)
+      }
+    })
+  }, [])
+
   
   return (
     <div className='wrapper'>
@@ -46,6 +61,7 @@ const App = () => {
           </animated.div>
         ))}
       </div>
+			{showTopBtn && <ScrollTopBtn />}
       <Footer />
     </div>
   )

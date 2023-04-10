@@ -12,12 +12,9 @@ const Portfolio = () => {
     <section className='portfolio'>
       <div className='container'>
         <div className='portfolio-content'>
-          <h2>
-            <span>My</span> Portfolio
+					<h2 className='text text_portfolio' translate='no'>
+            Some of <span>my works.</span>
           </h2>
-          <p>
-            Some of my <span>works</span>
-          </p>
 					<div className='portfolio-content__item'>
             <div className='portfolio-img'>
               <img src={pulse} alt='pulse' />

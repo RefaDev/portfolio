@@ -1,0 +1,31 @@
+.scroll-top {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  position: fixed;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 11111111111;
+  animation: spin 1.4s infinite linear;
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+  }
+	&:active{
+		border: none;
+	}
+}
+@keyframes spin {
+  0% {
+    transform: translate3d(0, -10%, 0);
+  }
+  50% {
+    transform: translate3d(0, 10%, 0);
+  }
+  100% {
+    transform: translate3d(0, -10%, 0);
+  }
+}

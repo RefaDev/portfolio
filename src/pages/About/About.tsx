@@ -5,17 +5,19 @@ import { NavLink } from 'react-router-dom'
 import './styles.scss'
 const About = () => {
   const date = new Date().getFullYear()
-	const age = date - 1993
-  
+  const age = date - 1993
 
   return (
     <section className='about'>
       <div className='container'>
         <div className='about_content'>
+          <h2 className='text text_about' translate='no'>
+            Something <span>about me.</span>
+          </h2>
           <p>
             {' '}
-            Hello there! My name is <span>Refat</span>, and I'm a {age} year old front-end
-            developer based in Crimea.
+            Hello there! My name is <span>Refat</span>, and I'm a {age} year old
+            front-end developer based in Crimea.
           </p>
           <p>
             {' '}

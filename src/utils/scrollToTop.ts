@@ -6,10 +6,22 @@ export default function ScrollToTop() {
 console.log(pathname);
   useEffect(() => {
 		
-			window.scrollTo(0, 0);
+			window.scrollTo({
+				top: 0,
+				left: 0,
+				behavior: 'smooth',
+			});
 		
     
   }, [pathname]);
 
   return null;
+}
+
+export const scrollTop = () => {
+	window.scrollTo({
+		 top: 0,
+		 left: 0,
+		 behavior: 'smooth',
+	})
 }
