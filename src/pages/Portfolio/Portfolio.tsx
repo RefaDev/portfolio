@@ -25,7 +25,7 @@ const Portfolio = () => {
             <div className='portfolio-content__item-descr'>
               <h3>Pulse</h3>
               <p>
-                HTML, SCSS, JS, BEM, Gulp, Webpack
+                HTML, SCSS, JS, BEM, Gulp, Webpack, PHPmailer, SwiperJS
               </p>
               <a target='_blank' href='https://refadev.github.io/pulse'>
                 View Project
