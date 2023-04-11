@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cc319bb1.css",
-    "main.js": "/portfolio/static/js/main.91387405.js",
+    "main.css": "/portfolio/static/css/main.3db92d07.css",
+    "main.js": "/portfolio/static/js/main.c9bf0d01.js",
     "static/media/films-portal.jpg": "/portfolio/static/media/films-portal.149b6c4b8f2c6f2ad971.jpg",
     "static/media/president.jpg": "/portfolio/static/media/president.daaa5d061338360b2df8.jpg",
     "static/media/pusle.jpg": "/portfolio/static/media/pusle.052489ef65ae62f1f7f6.jpg",
     "static/media/pizza.jpg": "/portfolio/static/media/pizza.44baea16e5b468ba668a.jpg",
     "static/media/news-portal.jpg": "/portfolio/static/media/news-portal.fc58644db7ac5bc9a973.jpg",
+    "static/media/todo.jpg": "/portfolio/static/media/todo.076280910dd314f476fe.jpg",
     "static/media/ava.jpg": "/portfolio/static/media/ava.d1e37fb0557bd3b24277.jpg",
     "static/media/ava2.jpg": "/portfolio/static/media/ava2.b63059fb273cc0723d58.jpg",
     "static/media/logo.svg": "/portfolio/static/media/logo.99fa5dcf97e78ee66a83e15532d9d048.svg",
@@ -30,11 +31,11 @@
     "static/media/telegram.svg": "/portfolio/static/media/telegram.ea36aa4c81b0f730bcc914adbb68f822.svg",
     "static/media/cssModule.svg": "/portfolio/static/media/cssModule.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/arr-top.svg": "/portfolio/static/media/arr-top.b4467f190ede6b62cd73af9d31eb6cd7.svg",
-    "main.cc319bb1.css.map": "/portfolio/static/css/main.cc319bb1.css.map",
-    "main.91387405.js.map": "/portfolio/static/js/main.91387405.js.map"
+    "main.3db92d07.css.map": "/portfolio/static/css/main.3db92d07.css.map",
+    "main.c9bf0d01.js.map": "/portfolio/static/js/main.c9bf0d01.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc319bb1.css",
-    "static/js/main.91387405.js"
+    "static/css/main.3db92d07.css",
+    "static/js/main.c9bf0d01.js"
   ]
 }
