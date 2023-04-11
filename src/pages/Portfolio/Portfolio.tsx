@@ -4,6 +4,8 @@ import news from 'assets/images/portfolio/news-portal.jpg'
 import films from 'assets/images/portfolio/films-portal.jpg'
 import pizza from 'assets/images/portfolio/pizza.jpg'
 import pulse from 'assets/images/portfolio/pusle.jpg'
+import todo from 'assets/images/portfolio/todo.jpg'
+
 import './styles.scss'
 
 const Portfolio = () => {
@@ -15,6 +17,20 @@ const Portfolio = () => {
 					<h2 className='text text_portfolio' translate='no'>
             Some of <span>my works.</span>
           </h2>
+					<div className='portfolio-content__item'>
+            <div className='portfolio-img'>
+              <img src={todo} alt='todo' />
+            </div>
+            <div className='portfolio-content__item-descr'>
+              <h3>Simple Todo list</h3>
+              <p>
+                JSX, Tailwind, JS, SCSS, React-icons
+              </p>
+              <a target='_blank' href='https://refadev.github.io/todo'>
+                View Project
+              </a>
+            </div>
+          </div>
 					<div className='portfolio-content__item'>
             <div className='portfolio-img'>
               <img src={pulse} alt='pulse' />
