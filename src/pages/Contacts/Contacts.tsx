@@ -44,7 +44,6 @@ const Contacts = () => {
                   </p>
                 </div>
               </div>
-
               <div className='contacts-info__item'>
                 <img src={telegram} alt='' />
                 <div>
@@ -56,7 +55,7 @@ const Contacts = () => {
               </div>
             </div>
           </div>
-          <div className='contacts__img'>
+          <div className='ramka-5 ramka-5_contact'>
             <img className='contact-me__image' src={ava2} alt='' />
           </div>
         </div>

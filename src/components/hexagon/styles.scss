@@ -1,0 +1,200 @@
+.hexagon-photo {
+	font-size: 1em;
+	position: relative;
+	height: 37em;    
+	width: 39em;
+	margin: 40px auto 90px auto;
+	background-image: radial-gradient(circle, #afcfec 0%, tomato 70%, transparent 70%, transparent 100%), radial-gradient(circle, #BFE2FF 0%, #5c5d5d 70%, transparent 70%, transparent 100%), radial-gradient(circle, #BFE2FF 0%, #e67314 70%, transparent 70%, transparent 100%);
+	background-repeat: no-repeat;
+	background-size: 20em 20em, 15em 15em, 12em 12em;
+	background-position: 5em 5em, 20em 10em, 11em 25em;
+}
+@media screen and (max-width: 767px) {
+	.hexagon-photo {
+			height: 46em;
+			width: 30em;
+			background-size: 20em 20em, 17em 17em, 10em 10em;
+			background-position: 2em 3em, 10em 16em, 3em 32em;
+	}
+}
+@media screen and (max-width: 580px) {
+	.hexagon-photo {
+			height: 61em;
+			width: 20em;
+			background-size: 18em 18em, 17em 17em, 10em 10em;
+			background-position: 1.5em 7em, 0em 25em, 7em 44em;
+	}
+}
+.hexagon {
+	position: absolute;
+	height: 10em;
+	width: 10em;
+	filter: drop-shadow(0 7px 15px rgba(138, 138, 138, 0.5));
+	transition: all .3s ease;
+	&:hover{
+		transform: scale(1.2);
+		z-index: 11111;
+		
+	}
+}
+.hexagon.hex-big {
+	height: 15em;
+	width: 15em;
+}
+.hexagon.hex-small {
+	height: 6em;
+	width: 6em;
+}
+.hexagon:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+	background-size: cover;
+}
+.hexagon:nth-of-type(1):before {
+	background-image: url("./../../assets/images/hexagon/1.avif");
+}
+.hexagon:nth-of-type(2):before {
+	background-image: url("./../../assets/images/hexagon/2.avif");
+}
+.hexagon:nth-of-type(3):before {
+	background-image: url("./../../assets/images/hexagon/3.avif");
+}
+.hexagon:nth-of-type(4):before {
+	background-image: url("./../../assets/images/hexagon/4.avif");
+}
+.hexagon:nth-of-type(5):before {
+	background-image: url("./../../assets/images/hexagon/5.avif");
+}
+.hexagon:nth-of-type(6):before {
+	background-image: url("./../../assets/images/hexagon/6.avif");
+}
+.hexagon:nth-of-type(7):before {
+	background-image: url("./../../assets/images/hexagon/7.avif");
+}
+.hexagon:nth-of-type(8):before {
+	background-image: url("./../../assets/images/hexagon/8.avif");
+}
+.hexagon:nth-of-type(9):before {
+	background-image: url("./../../assets/images/hexagon/9.avif");
+}
+.hexagon:nth-of-type(1) {
+	top: 3em;
+	left: 5em;
+}
+.hexagon:nth-of-type(2) {
+	top: 11em;
+	left: 18em;
+}
+.hexagon:nth-of-type(3) {
+	top: 0;
+	left: 19em;
+}
+.hexagon:nth-of-type(4) {
+	top: 22em;
+	left: 10em;
+}
+.hexagon:nth-of-type(5) {
+	top: 27em;
+	left: 20em;
+}
+.hexagon:nth-of-type(6) {
+	top: 30em;
+	left: 5em;
+}
+.hexagon:nth-of-type(7) {
+	top: 10em;
+	left: 32em;
+}
+.hexagon:nth-of-type(8) {
+	top: 1em;
+	left: 1em;
+}
+.hexagon:nth-of-type(9) {
+	top: 23em;
+	left: 31em;
+}
+@media screen and (max-width: 767px) {
+	.hexagon:nth-of-type(1) {
+			top: 3em;
+			left: 5em;
+	}
+	.hexagon:nth-of-type(2) {
+			top: 17em;
+			left: 14em;
+	}
+	.hexagon:nth-of-type(3) {
+			top: 0;
+			left: 19em;
+	}
+	.hexagon:nth-of-type(4) {
+			top: 27em;
+			left: 6em;
+	}
+	.hexagon:nth-of-type(5) {
+			top: 33em;
+			left: 16em;
+	}
+	.hexagon:nth-of-type(6) {
+			top: 14em;
+			left: 1em;
+	}
+	.hexagon:nth-of-type(7) {
+			top: 40em;
+			left: 11em;
+	}
+	.hexagon:nth-of-type(8) {
+			top: 1em;
+			left: 1em;
+	}
+	.hexagon:nth-of-type(9) {
+			top: 11em;
+			left: 20em;
+	}
+}
+@media screen and (max-width: 580px) {
+	.hexagon:nth-of-type(1) {
+			top: 4em;
+			left: 4em;
+	}
+	.hexagon:nth-of-type(2) {
+			top: 20em;
+			left: 1em;
+	}
+	.hexagon:nth-of-type(3) {
+			top: 35em;
+			left: 7em;
+	}
+	.hexagon:nth-of-type(4) {
+			top: 43em;
+			left: 0em;
+	}
+	.hexagon:nth-of-type(5) {
+			top: 48em;
+			left: 9em;
+	}
+	.hexagon:nth-of-type(6) {
+			top: 20em;
+			left: 14em;
+			height: 4em;
+			width: 4em;
+	}
+	.hexagon:nth-of-type(7) {
+			top: 54em;
+			left: 3em;
+	}
+	.hexagon:nth-of-type(8) {
+			top: 1em;
+			left: 1em;
+	}
+	.hexagon:nth-of-type(9) {
+			top: 36em;
+			left: 4em;
+			height: 3em;
+			width: 3em;
+	}
+}
