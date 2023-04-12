@@ -5,6 +5,7 @@ import films from 'assets/images/portfolio/films-portal.jpg'
 import pizza from 'assets/images/portfolio/pizza.jpg'
 import pulse from 'assets/images/portfolio/pusle.jpg'
 import todo from 'assets/images/portfolio/todo.jpg'
+import cardGame from 'assets/images/portfolio/card-game.jpg'
 
 import './styles.scss'
 
@@ -17,6 +18,20 @@ const Portfolio = () => {
 					<h2 className='text text_portfolio' translate='no'>
             Some of <span>my works.</span>
           </h2>
+					<div className='portfolio-content__item'>
+            <div className='portfolio-img'>
+              <img src={cardGame} alt='card-game' />
+            </div>
+            <div className='portfolio-content__item-descr'>
+              <h3>Card game</h3>
+              <p>
+                HTML, CSS, JS
+              </p>
+              <a target='_blank' href='https://refadev.github.io/card-game'>
+                View Project
+              </a>
+            </div>
+          </div>
 					<div className='portfolio-content__item'>
             <div className='portfolio-img'>
               <img src={todo} alt='todo' />
