@@ -45,22 +45,7 @@
     }
   }
 }
-.photo {
-  margin: 20px 0px 30px 0px;
 
-  img {
-    border-radius: 40px;
-    max-width: 100%;
-    max-height: 400px;
-    transition: all 0.3s ease;
-    @media (max-width: 450px) {
-      max-height: 320px;
-    }
-    &:hover {
-      transform: scale(1.01);
-    }
-  }
-}
 
 .text {
   display: block;
@@ -128,7 +113,7 @@
   justify-content: center;
   align-items: center;
   img {
-    border-radius: 10px;
+    border-radius: 8px;
     max-width: calc(100% - 10px);
 		height: 365px;
   }
