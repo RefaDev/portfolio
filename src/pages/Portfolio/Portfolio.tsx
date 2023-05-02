@@ -6,6 +6,7 @@ import pizza from 'assets/images/portfolio/pizza.jpg'
 import pulse from 'assets/images/portfolio/pusle.jpg'
 import todo from 'assets/images/portfolio/todo.jpg'
 import cardGame from 'assets/images/portfolio/card-game.jpg'
+import vipstarproperty from 'assets/images/portfolio/vipstarproperty.jpg'
 
 import './styles.scss'
 
@@ -18,6 +19,20 @@ const Portfolio = () => {
 					<h2 className='text text_portfolio' translate='no'>
             Some of <span>my works.</span>
           </h2>
+					<div className='portfolio-content__item'>
+            <div className='portfolio-img'>
+              <img src={vipstarproperty} alt='card-game' />
+            </div>
+            <div className='portfolio-content__item-descr'>
+              <h3>VipStarProperty</h3>
+              <p>
+                HTML, CSS, JS, Gulp, Webpack, Inputmask, JustValidate, ScrollOut, Swiper, i18next etc.
+              </p>
+              <a target='_blank' href='https://vipstarproperty.com/'>
+                View Project
+              </a>
+            </div>
+          </div>
 					<div className='portfolio-content__item'>
             <div className='portfolio-img'>
               <img src={cardGame} alt='card-game' />
